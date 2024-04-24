@@ -1,0 +1,63 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python compiled files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdf
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# Sensitive information and environment variables
+.env
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+desktop.ini  # Windows
+
+# Build and distribution files
+build/
+dist/
+*.egg-info/
+
+# Data and cache files
+*.log
+*.pickle
+*.pkl
+*.db
+*.sqlite
+*.bak
+*.tmp
+*.swp
+*.swo
+*.swn
+*.~lock.*
+*.data
+*.cache
+
+# Node modules (if applicable)
+node_modules/
+
+# Generated or temporary files
+*.tmp
+*.bak
+*.backup
+*.swp
+
+# Ignore test coverage and report files
+.coverage
+.coverage.*
+*.cover
+.coverage.xml
+*.gcda
+*.gcno
+
+# Streamlit-related files
+.streamlit/
